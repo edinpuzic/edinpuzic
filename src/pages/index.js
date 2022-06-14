@@ -56,7 +56,7 @@ export default function Home() {
           />
         </div>
       </main>
-      <footer className="absolute bottom-3 flex justify-center w-full">
+      <footer className="absolute bottom-3 flex justify-center w-full left-0 right-0">
         <a
           className="font-main text-secondary-200  font-bold text-xl md:text-lg transition-all hover:bg-pink hover:text-white px-3"
           href="mailto:edinpuzic11@gmail.com"
