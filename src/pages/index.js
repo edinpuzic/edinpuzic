@@ -44,7 +44,16 @@ export default function Home() {
           </ul>
         </div>
         <div className="w-[200px] md:w-[300px] overflow-hidden rounded-full border-4 border-pink border-dashed opacity-80">
-          <Image src="/edin.png" width={500} height={500} priority alt="Edin Puzic" layout="responsive" />
+          <Image
+            src="/edin.png"
+            width={500}
+            height={500}
+            blurDataURL="/edin.png"
+            placeholder="blur"
+            priority
+            alt="Edin Puzic"
+            layout="responsive"
+          />
         </div>
       </main>
       <footer className="absolute bottom-3 flex justify-center w-full">
