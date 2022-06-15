@@ -43,7 +43,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="w-[200px] md:w-[300px] overflow-hidden rounded-full border-4 border-pink border-dashed opacity-80">
+        <div className="w-[200px] md:w-[300px] overflow-hidden rounded-full border-4 border-pink border-dashed hover:border-solid opacity-80">
           <Image
             src="/edin.png"
             width={500}
